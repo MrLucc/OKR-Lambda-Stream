@@ -9,13 +9,7 @@ public class Main {
         List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker");
 
 
-       //printNumbers(numbers);
-//       printOnlyOddNumbers(numbers);
-//        printCourses(courses);
-//        printSquareNumbersEvenUseLambda(numbers);
-       // printCourses(courses);
-        //print(addList(numbers));
-       //print(printSquare(numbers));
+
 
 
        var numemero = numbers.stream().map(x -> x*x*x).filter(x -> x%2 ==0).reduce(Integer::sum);
